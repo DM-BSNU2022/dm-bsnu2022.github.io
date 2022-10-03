@@ -2584,13 +2584,12 @@ Responsive Style
 body {
   overflow-x: hidden;
 }
-
-@media (max-width: 766px) {
+@media (max-width: 500px) {
   @media (min-width: 140px)
   { .main-banner {
-    background-image: url(../images/frame2.png);
+    background-image: url(../images/frame3.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center 85px;
     background-size: contain;
     padding-top: 240px;
     padding-bottom: 240px;
@@ -2599,6 +2598,10 @@ body {
   }
   
 }
+}
+
+@media (max-width: 766px) {
+ 
 
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     display: none;
@@ -2628,9 +2631,9 @@ body {
 @media (max-width: 992px) {
   @media (min-width: 768px)
   { .main-banner {
-    background-image: url(../images/background3.jpg);
+    background-image: url(../images/frame4.png);
     background-repeat: no-repeat;
-    background-position: center 75px;
+    background-position: center 80px;
     background-size: cover;
     padding-top: 240px;
     padding-bottom: 240px;
@@ -2638,7 +2641,12 @@ body {
     background-color: #8290E5;
   }
   h2{
-    background-color: red;
+    border-radius: 50px;
+    
+  
+
+    padding: 10px;
+   
   }
 }
   .header-area .main-nav .nav li:first-child {
