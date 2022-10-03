@@ -244,9 +244,9 @@ Header Style
 }
 
 .header-area {
-  background: linear-gradient(108.21deg,#0D03C3  0%,#2272FF  97.89%);
+  background: linear-gradient(108.21deg,#8290E5  0%,#8290E5  97.89%);
   position: absolute;
-  height: 70px;
+  height: 75px;
   top: 0;
   left: 0;
   right: 0;
@@ -258,7 +258,7 @@ Header Style
 }
 
 .header-area .main-nav {
-  min-height: 80px;
+  min-height: 75px;
   background: transparent;
   display: flex
 }
@@ -277,9 +277,7 @@ Header Style
 }
 
 .logo-block {
-  margin-top: auto;
-  margin-bottom: auto;
-  vertical-align: middle;
+  margin: auto 0 ;
   display: inline-block;
  
 }
@@ -303,10 +301,11 @@ Header Style
 }
 
 .logo1 {
+
   display: inline-block; 
   width: 55px;
   margin: auto;
-  margin-bottom: 0px;
+  
  
 }
 
@@ -316,8 +315,9 @@ Header Style
 
 .header-area .main-nav .nav {
   flex-basis: 60%;
-  height: 70px;
-  margin-top: 0px;
+  height: 75px;
+
+  margin: auto auto;
   margin-right: 0px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -348,7 +348,7 @@ Header Style
 .header-area .main-nav .nav li a {
   display: block;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   text-transform: uppercase;
   color: #fff;
   -webkit-transition: all 0.3s ease 0s;
@@ -479,7 +479,7 @@ Header Style
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #2a2a2a;
+  background-color: #fff;
   display: block;
   position: absolute;
   width: 30px;
@@ -490,7 +490,7 @@ Header Style
 .background-header .main-nav .menu-trigger span,
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #2a2a2a;
+  background-color: #fff;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -499,7 +499,7 @@ Header Style
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #2a2a2a;
+  background-color: #fff;
   display: block;
   position: absolute;
   width: 30px;
@@ -510,7 +510,7 @@ Header Style
 
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #2a2a2a;
+  background-color: #fff;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -555,7 +555,7 @@ Header Style
 }
 
 .background-header .main-nav .menu-trigger.active span:before {
-  background-color: #2a2a2a;
+  background-color: #fff;
 }
 
 .header-area .main-nav .menu-trigger.active span:after {
@@ -563,15 +563,15 @@ Header Style
   -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: #2a2a2a;
+  background-color: #fff;
 }
 
 .background-header .main-nav .menu-trigger.active span:after {
-  background-color: #2a2a2a;
+  background-color: #fff;
 }
 
 .header-area.header-sticky {
-  min-height: 70px;
+  min-height: 75px;
 }
 
 .header-area.header-sticky .nav li a.active {
@@ -966,14 +966,14 @@ Banner Style
 */
 
 .main-banner {
-  background-image: url(../images/background.jpg);
+  background-image: url(../images/background3.png);
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  padding-top: 290px;
+  background-position: center 75px;
+  background-size: contain;
+  padding-top: 240px;
   padding-bottom: 240px;
   text-align: center;
-  background-color: #2a2a2a;
+  background-color: #8290E5;
 }
 
 .main-banner h2 {
