@@ -1437,6 +1437,9 @@ pricing-plans
   border: 1px solid #e0e0e0;
   border-radius: 15px;
   transition: all .5s;
+  -webkit-box-shadow: 10px 10px 8px -8px rgba(209,209,209,1);
+  -moz-box-shadow: 10px 10px 10px -8px rgba(209,209,209,1);
+  box-shadow: 10px 10px 10px -8px rgba(209,209,209,1);
 }
 
 .pricing-item:hover {
@@ -1457,8 +1460,7 @@ pricing-plans
   font-weight: 700;
   margin-top: 30px;
   margin-bottom: 30px;
-  padding-bottom: 30px;
-  border-bottom: 1px solid #d4d4d4;
+  
   transition: all .5s;
 }
 
