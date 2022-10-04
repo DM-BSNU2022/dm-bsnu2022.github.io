@@ -1559,7 +1559,8 @@ page heading
 }
 
 .page-heading h2.space-need {
-  padding: 0px 30px;
+  padding: 0px;
+  
 }
 
 .page-heading h2 em {
@@ -1594,7 +1595,8 @@ page heading
   display: inline-block;
   text-align: center; 
 }
-@media (min-width: 992px) {
+@media (min-width: 992px) 
+{
   .page-heading .main-content .counter div {
     margin: 0px 10px; 
   } 
@@ -2605,6 +2607,13 @@ body {
     text-align: center;
     background-color: #8290E5;
   }
+  .page-heading h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 74px;
+  }
+  
   
 }
 }
