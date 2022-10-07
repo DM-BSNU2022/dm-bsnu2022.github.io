@@ -662,6 +662,7 @@ Header Style
     border-bottom: 1px solid #eee;
     padding-left: 0px !important;
     padding-right: 0px !important;
+
   }
   .header-area .main-nav .nav li a {
     height: 50px !important;
@@ -966,7 +967,7 @@ Banner Style
 */
 
 .main-banner {
-  background-image: url(../images/frame2.png);
+  background-image: url(../images/frame23.png);
   background-repeat: no-repeat;
   background-position: center 75px;
   background-size: contain;
@@ -1302,7 +1303,8 @@ closed contests
 */ 
 
 section.closed-contests {
-  background-image: url(../images/closed-bg.jpg);
+  
+  background-color: #F1F1F2;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2348,7 +2350,7 @@ Users Page
 
 .user-info {
   text-align: center;
-  margin-top: -85px;
+  margin-top: -60px;
 }
 
 .user-info h4 {
@@ -2390,6 +2392,7 @@ Users Page
 section.portfolio {
   padding: 80px 0px;
   background-color: #F1F1F2;
+  margin-bottom: 0px;
 }
 
 section.portfolio .thumb {

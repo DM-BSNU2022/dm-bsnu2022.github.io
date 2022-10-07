@@ -118,7 +118,16 @@ https://templatemo.com/tm-576-snapx-photography
     </div>
   </div>
 
-  <section class="portfolio">
+
+
+<div id="directions"></div>
+<script>
+  let parent = document.querySelector('#directions');
+
+for (let i = 1; i <= 9; i++) {
+	let section = document.createElement('section');
+  section.className = "portfolio"
+  section.innerHTML = ` <section class="portfolio">
     <div class="container">
       <div class="row">
         <div class="col-lg-3">
@@ -274,7 +283,7 @@ https://templatemo.com/tm-576-snapx-photography
     </div>
   </section>
 
-  <div style="padding: 15px;"></div>
+ 
   <div class="user-info">
     <div class="container">
       <div class="row">
@@ -330,10 +339,11 @@ https://templatemo.com/tm-576-snapx-photography
         </div>
       </div>
     </div>
-  </div>
-
-
-  <section class="portfolio">
+  </div>`;
+  document.querySelector('#directions').append(section);
+}
+</script>
+  <!-- <section class="portfolio">
     <div class="container">
       <div class="row">
         <div class="col-lg-3">
@@ -487,7 +497,7 @@ https://templatemo.com/tm-576-snapx-photography
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <footer id="footer"></footer>
 
@@ -496,11 +506,10 @@ https://templatemo.com/tm-576-snapx-photography
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-  <script src="assets/js/isotope.min.js"></script>
-  <script src="assets/js/owl-carousel.js"></script>
+
   <script src="assets/js/tabs.js"></script>
   <script src="assets/js/popup.js"></script>
-  <script src="assets/js/custom.js"></script>
+ 
 
 
   </body>

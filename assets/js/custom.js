@@ -124,34 +124,32 @@
 	
 
 	(function init() {
-		function getTimeRemaining(endtime) {
-		  var t = Date.parse(endtime) - Date.parse(new Date());
-		  var seconds = Math.floor((t / 1000) % 60);
-		  var minutes = Math.floor((t / 1000 / 60) % 60);
-		  var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
-		  var days = Math.floor(t / (1000 * 60 * 60 * 24));
-		  return {
-			'total': t,
-			'days': days,
-			'hours': hours,
-			'minutes': minutes,
-			'seconds': seconds
-		  };
-		}
 		
 		function initializeClock(endtime){
 		var timeinterval = setInterval(function(){
-		  var t = getTimeRemaining(endtime);
-		  document.querySelector(".days > .value").innerText=t.days;
-		  document.querySelector(".hours > .value").innerText=t.hours;
-		  document.querySelector(".minutes > .value").innerText=t.minutes;
-		  document.querySelector(".seconds > .value").innerText=t.seconds;
-		  if(t.total<=0){
+			
+			var distance = endtime.getTime() - new Date().getTime();
+
+			// Time calculations for days, hours, minutes and seconds
+			var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+			var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+		 
+		  document.querySelector(".days > .value").innerText=days;
+		  document.querySelector(".hours > .value").innerText=hours;
+		  document.querySelector(".minutes > .value").innerText=minutes;
+		  document.querySelector(".seconds > .value").innerText=seconds;
+		  if(distance < 0){
 			clearInterval(timeinterval);
+			document.querySelector(".days > .value").innerText='00';
+			document.querySelector(".hours > .value").innerText='00';
+			document.querySelector(".minutes > .value").innerText='00';
+			document.querySelector(".seconds > .value").innerText='00';
 		  }
 		},1000);
 	  }
-	  initializeClock((new Date('2022-10-06T00:00:00')) )
+	  initializeClock((new Date('2022-10-07T00:00:00')) )
 	})()
 
 	var context;
