@@ -1946,6 +1946,12 @@ Contest Details Page
   padding: 80px 60px;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.06);
 }
+.contestP {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 22px;
+}
 
 .contest-details .main-content h4 {
   font-size: 30px;
