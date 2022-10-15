@@ -2060,6 +2060,12 @@ Contest Details Page
   object-fit: cover;
   object-position: center 0;
 }
+.image{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center 0;
+}
 
 .contest-waiting .waiting-item .down-content {
   background-color: #f7f7f7;
