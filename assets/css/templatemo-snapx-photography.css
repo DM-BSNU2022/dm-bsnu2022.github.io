@@ -1127,17 +1127,35 @@ section.featured-items {
 .featured-items .item .thumb .hover-effect .content ul li {
   font-size: 15px;
   font-weight: 400;
-  color: #afafaf;
+  color: #2a2a2a;
   margin-bottom: 7px;
+  
+  
 }
 
 .featured-items .item .thumb .hover-effect .content ul li:last-child {
   margin-bottom: 0px;
+
 }
 
-.featured-items .item .thumb .hover-effect .content ul li span {
+/* .featured-items .item .thumb .hover-effect .content ul li span {
   color: #2a2a2a;
   font-weight: 500;
+} */
+
+.key {
+  color: #2a2a2a;
+  font-weight: 500;
+}
+.place {
+  color: #fff;
+  font-weight: 400;
+  background-color: #8290E5;
+  display: inline-block;
+  font-size: 15px;
+  min-width: 30px;
+  border-radius: 20%;
+  
 }
 
 .featured-items .owl-nav {
@@ -2093,6 +2111,8 @@ Contest Details Page
   margin-bottom: 20px;
   
 }
+
+
 
 .contest-waiting .waiting-item .down-content span.price,
 .contest-waiting .waiting-item .down-content span.deadline {
