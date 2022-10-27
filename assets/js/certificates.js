@@ -19,7 +19,6 @@ window.addEventListener('load', (event) => {
         '65' : 'certificates/participants/65_Чорний-«Design and Modelling BSNU 2022».jpg',
         '70' : 'certificates/participants/70_Чубик-«Design and Modelling BSNU 2022».jpg',
         '75' : 'certificates/participants/75_Шпилюк-«Design and Modelling BSNU 2022».jpg',
-        //juri+org
         '8010' : 'certificates/8010_Журі-Давиденко-«Design and Modelling BSNU 2022».jpg',
         '8015' : 'certificates/8015_Журі-Костін-«Design and Modelling BSNU 2022».jpg',
         '8020' : 'certificates/8020_Журі-Медвінський-«Design and Modelling BSNU 2022».jpg',
