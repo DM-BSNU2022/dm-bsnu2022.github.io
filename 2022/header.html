@@ -1,0 +1,55 @@
+<header class="header-area header-sticky" style="background-color: #5982B1;">
+    <div class="container" >
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                                                   
+                    
+                    <div class="logo-block">
+                        <a href="https://chmnu.edu.ua/" target="_blank">
+                            <img class="logo1"  src="assets/images/logo(BSNU).png" alt="BSNU">
+                            <p class="bsnu-logo">Black Sea National University</p>           
+                        </a>            
+                    </div>
+                    
+                   
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                        <li><a href="index.html"> Головна</a></li>
+                        <li><a href="works.html"> Роботи</a></li>
+                        <li><a href="contest-details.html"> Деталі</a></li>
+                        <li><a href="contest-details.html#jury"> Журі</a></li>
+                       
+                    </ul>   
+                    
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+  </header>
+
+  <script>
+    var paramsString = document.location.search;  
+    var searchParams = new URLSearchParams(paramsString);
+    
+    var page = document.location.pathname.substr(1);
+    var tab =  document.querySelectorAll(`a[href^='${page}']`);
+    var tab1 = document.getElementById("1");
+    tab[0].className = "active";
+   
+  </script>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/wow.js"></script>
+  <script src="assets/js/tabs.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
